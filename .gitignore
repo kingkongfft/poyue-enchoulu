@@ -1,0 +1,20 @@
+# 环境 / 缓存
+.venv/
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+
+# 密钥与令牌（绝不入库）
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+
+# 编辑器
+.idea/
+.vscode/
+*.swp
